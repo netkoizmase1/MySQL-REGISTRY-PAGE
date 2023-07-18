@@ -1,0 +1,8 @@
+insert into producttb VALUES 
+("1","Hoddie","100","./upload/duks.png"),
+("2","Šuškavac","130","./upload/suskavac.png"),
+("3","Dukserica","90","./upload/majica32.png"),
+("4","T-Shirt","50","./upload/majica1.png"),
+("5","Torbica","40","./upload/torbica.png"),
+("6","Čarape","20","./upload/carape1.png"),
+("7","Karte","35","./upload/ticket.jpg");

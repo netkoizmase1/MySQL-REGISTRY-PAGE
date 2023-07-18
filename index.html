@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+.header {
+  padding: 200px;
+  background-image: url(slike/znak.webp);
+  background-repeat: no-repeat;
+  background-size: contain;
+ background-position-x: center;
+
+  
+}
+
+.navbar {
+  display: flex;
+  background-color: #333;
+}
+
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+.slika {
+  background-color: #aaa;
+  width: 100%;
+ 
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+#sli{
+  width: 35px;
+  height: 35px;
+  color: #ddd;
+  border-radius: 50%;
+}
+
+#join{
+width: 200px;
+height: 40px;
+
+}
+
+table, th, td {
+ border: 2px solid black;
+ padding: 10px;
+ text-align: center;
+}
+
+/*kad je ekran manji od 700px redovi se slazu jedan na drugi ne jedan pored drugog */
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<div class="header" >
+</div>
+
+<div class="navbar">
+  <a href="https://en.wikipedia.org/wiki/Marshmello">Christopher Comstock</a>
+  <a href="https://en.wikipedia.org/wiki/Deadmau5">Deadmau5</a>
+  <a href="#nagrade">Nagrade</a>
+  <a href="Prijava.html">WEB SHOP</a>
+  <a href="registracija.html">REGISTRUJ SE</a>
+</div>
+
+
+<div class="row">
+  <div class="side">
+    <h2>O Marshmello-u</h2>
+    <h5>Marshmello:</h5>
+    <img src="slike/chris.jpg" alt="" class="slika">
+    <h2>Christopher Comstock a.k.a. Marshmello</h2>
+<br>
+    <p>Inspiraciju za masku dobio je od kanadskog DJ-a Deadmau5-a koji je prepoznatljiv po masci "mrtvog miša".</p>
+    <img src="slike/dedmaus.jpg" alt="" class="slika"><br>
+    <br>
+    
+    <h3>Albumi</h3>
+    <table class="tablica" table style="width:100%" >
+      <tr>
+        <td>
+        <a href="https://open.spotify.com/album/6opKASPALOkPwCfHvqIS9H">Joytime</a>
+      </td>
+        <td>2016</td>
+      </tr>
+      <tr>
+        <td>
+        <a href="https://open.spotify.com/album/0xi4cOWPUHjctyYU8ypCOB">Joytime II</a>
+      </td>
+        <td>2018</td>
+      </tr>
+      <tr>
+        <td>
+        <a href="https://open.spotify.com/album/662MMKEWOxGXbPXQIcgBlW">Joytime III</a>
+      </td>
+        <td>2019</td>
+      </tr>
+      <tr>
+      <td>
+      <a href="https://open.spotify.com/album/6yXPyhVxt3PHBwkinPFn6I">Shockwave</a>
+      </td>
+      <td>2021</td>
+      </tr>
+    </table>
+<br>
+<h3>Nagrade</h3>
+    <table class="tablica" table style="width:100%; " id="nagrade"  >
+      <tr>
+        <td>MTV europska glazbena nagrada za najboljeg izvođača elektronske glazbe</td>
+      </tr>
+
+      <tr>
+        <td>Billboard glazbena nagrada za najbolji dance album</td>
+      </tr>
+
+      <tr>
+        <td>Omiljeni izvođač elektronske dance glazbe</td>
+      </tr>
+
+      <tr>
+        <td>Iheartradio Music Award For Best New Pop Artist</td>
+      </tr>
+
+      <tr>
+        <td>Video Award For Fan Fave Single</td>
+      </tr>
+
+
+    </table>
+<br>
+    <iframe src="slike.html" frameborder="0" width="100%"; height="300px"></iframe>
+  </div>
+  <div class="main">
+
+
+    <h2>HITOVI</h2>
+    <h3>Alone</h3>
+    <a href="https://www.youtube.com/watch?v=ALZHF5UqnU4"><img src="slike/marshmello-alone-MV-2017-billboard-1548.jpg" alt="" class="slika"></a>
+    <p>Datum izdavanja 2. srp 2016</p>
+    <p>Pjesma ima 2.3 milijarde pregleda. 3+ milijuna primjeraka je prodano te je pjesma s 3 platinum certifikata. Osvojila je 3. mjesto za "US hot dance/ellectronic Songs, 28. na "US Billboard Hot 100", 11. na "Canadian Hot 100".</p>
+    <br>
+
+    <h3>Friends</h3>
+    <a href="https://www.youtube.com/watch?v=CY8E6N5Nzec"><img src="slike/friends.jpg" alt="" class="slika"></a>
+    <p>Datum izdavanja 9. velj 2018</p>
+    <p>Duet s Engleskom pjevačicom Anne-Marie. Autor pjesme je Nat Dunn. Pjesma ima 1 milijardu pregleda. Pjesma i ako manjeg broja pregleda osvojila je više nagrada te dostigla veću popularnost. Prvo mjesto u slušanosti osvojila je u Njemačkoj, Austriji, Rusiji, Nizozemskoj te mnogim drugima. Osvojila je prvo mjesto za "US Dance/Mix Show Airplay (Billboard). Prodata je u preko 9.6 milijuna primjeraka."</p>
+  </div>
+</div>
+
+
+<div class="footer">
+  <a href="registracija.html"><img id="join" src="slike/join-the-mellogang.svg" alt=""></a>
+  <h3>All rights belong to their respective owners</h3>
+
+ <a href="https://open.spotify.com/artist/64KEffDW9EtZ1y2vBYgq8T"><img id="sli" src="slike/spotify.png" alt="n"></a>
+ <a href="https://www.instagram.com/marshmello/"><img id="sli" src="slike/insta.png" alt="n"></a>
+</div>
+
+</body>
+</html>
